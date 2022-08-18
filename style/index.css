@@ -1,1 +1,142 @@
-/* Add CSS styling here */
+/*CSS reset implemented*/
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  body {
+    background-color: #1F363D;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  html{
+    font-family:'Roboto Mono', monospace;
+  }
+
+/*Navigation Bar*/
+nav {
+    margin: 0 auto;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    margin-bottom: 10%;
+
+}
+nav a {
+    background-color: #40798C;
+    text-decoration: none;
+    color: black;
+    padding: 2%;
+    padding-inline: 6%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: ease-in-out .5s;
+}
+
+nav a:hover {
+    scale: 105%;
+    color: #fff;
+}
+
+
+header{
+    width: 95;
+}
+.infocard {
+    width: 90%;
+}
+.infocardbig {
+    background-color: #40798C;
+    display: inline-block;
+    width: 100%;
+    border-radius: 40px;
+    padding: 5%;
+    max-width: 100%;
+}
+.infocardbig img {
+    width: 30%;
+    border-radius: 50%;
+    background-color: #40798C;
+    display: inline-block;
+    float:left;
+}
+
+h1{
+font-family: 'Alumni Sans Pinstripe', sans-serif;
+font-weight: bolder;
+font-size: 6rem;
+margin-left: 5%;
+letter-spacing: .4em;
+}
+
+h2 {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    width: 50%;
+    margin-left: 48%;
+    font-size: 3em;
+    letter-spacing: .3em;
+}
+
+h3{
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.infocardbig p {
+    text-align: center;
+    width: 40%;
+    font-size: 400;
+}
+
+.socials{
+    display: flex;
+    margin: auto 0;
+    margin-top: 10%;
+    justify-content: space-around;
+    align-content: center;
+}
+.socials a{
+    display: flex;
+    justify-content: center;
+}
+.socials h3 {
+    margin-top: 2%;
+}
+
+.socials a img{
+    display: inline-block;
+    width: 40%;
+    padding: 1%;
+    margin-inline: 2%;
+    position: relative;
+    transition: ease-in-out .5s;
+}
+.socials a img:hover{
+    translate: 1em;
+    box-shadow: #1F363D 1em;
+    transform: rotate(20deg);
+}
+
