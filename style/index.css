@@ -140,3 +140,59 @@ h3{
     transform: rotate(20deg);
 }
 
+.photos {
+    padding: 2em;
+    margin-top: 5em;
+    background-color: #40798C;
+    border-radius: 40px;
+    padding-top: 4em;
+
+}
+
+.photo-grid {
+    padding: 1em;
+    margin-top: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.photo-grid img {
+    width: 25%;
+    padding: 1em;
+}
+.photo-grid p {
+    transition: ease-in-out 2s;
+}
+span{
+    display: none;
+
+}
+.photos p:hover span {
+    display: inline;
+}
+
+footer {
+    background-color: #40798C;
+    margin-top: 6em;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+footer h4, p {
+    margin: 1em;
+    padding: 2em;
+}
+.socials-bottom{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-around;
+}
+.socials-bottom a img {
+width: 30%;
+transition: ease-in-out .5s;
+}
+.socials-bottom a img:hover{
+    translate: 1em;
+    box-shadow: #1F363D 1em;
+    transform: rotate(20deg);
