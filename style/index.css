@@ -183,6 +183,20 @@ footer h4, p {
     margin: 1em;
     padding: 2em;
 }
+.contact-button{
+    margin-left: 2em;
+    background-color: #1F363D;
+    padding: 1em;
+    color:#fff;
+    font-size: 1.2em;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.contact-button:hover{
+    text-shadow: #1F363D;
+}
+
 .socials-bottom{
     display: flex;
     flex-flow: row-reverse nowrap;
