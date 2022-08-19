@@ -63,7 +63,7 @@ nav a:hover {
 
 
 header{
-    width: 95;
+    width: 95%;
 }
 .infocard {
     width: 90%;
@@ -210,3 +210,106 @@ transition: ease-in-out .5s;
     translate: 1em;
     box-shadow: #1F363D 1em;
     transform: rotate(20deg);
+}
+
+
+/*Max width 800px set*/
+@media screen and (max-width: 800px) {
+    nav{
+        width: 100%;
+    }
+    nav a{
+        font-size: 1em;
+    }
+    
+    .photo-grid img{
+        width: 50%
+    }
+    
+    .infocard img{
+        width: 50%;
+        display: block;
+    }
+    h1 {
+        display: block;
+        font-size: 4em;
+    }
+    .socials a img{
+        width: 80%;
+    }
+    .socials-bottom a img{
+        width: 70%;
+    }
+    
+}
+
+
+
+/*Mobile layout set*/
+@media screen and (max-width: 500px){
+    html{
+        width: 100%;
+    }
+    nav{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        width: 100%;
+        font-size: .7em;
+    }
+    nav a {
+        border-radius: 0;
+        text-align: center;
+        padding-inline: auto;
+    }
+    .infocard{
+        width: 110%;
+    }
+
+    .infocardbig img {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        width: 60%;
+    }
+    h1 {
+        padding-top: 1em;
+        font-size: 3em;
+        display: block;
+        font-weight: bolder;
+        width: 100%;
+        
+    }
+    h2{
+        width: 40%;
+        font-size: 2em;
+        margin: auto;
+        }
+    .bottoma{
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+    .socials{
+        flex-flow: row;
+    }
+    .socials a img{
+        width: 70%;
+    }
+    footer{
+        justify-content: space-around;
+        padding: 0;
+        margin: 0;
+    }
+    .socials-bottom a img {
+        width: 60%;
+    }
+    .contact-button{
+        padding: .5em;
+        width: 100%;
+        font-size: 1em;
+        margin: 0 auto;
+    }
+    .photo-grid img{
+        width: 50%;
+    }
+}
